@@ -22,12 +22,10 @@ class HomeScreen extends React.Component {
           title="Button      >"
         />
         <Button
-          style={styles.ysuiBtn}
           onPress={()=>navigate('ListExample')}
           title="List      >"
         />
         <Button
-          style={styles.ysuiBtn}
           onPress={()=>navigate('InputExample')}
           title="Input      >"
         />
@@ -35,12 +33,10 @@ class HomeScreen extends React.Component {
          <View>
           <Text style={styles.title}>操作反馈</Text>
           <Button
-          style={styles.ysuiBtn}
           onPress={()=>navigate('DialogExample')}
           title="Dialog      >"
         />
         <Button
-          style={styles.ysuiBtn}
           onPress={()=>navigate('ToastExample')}
           title="Toast      >"
         />
@@ -117,20 +113,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     //alignItems: 'center',
     justifyContent: 'flex-start',
-  },
-  ysuiBtn: {
-    backgroundColor: '#fd783f',
-    height:44,
-    paddingLeft: 20,
-    paddingRight: 20,
-    paddingTop: 0,
-    paddingBottom: 0,
-    width: 40,
-    borderRadius: 44,
-    borderColor:'#fd783f',
-    borderStyle:'solid',
-    borderWidth:1,
-    marginTop:20,
   },
   title: {
     height:44,
